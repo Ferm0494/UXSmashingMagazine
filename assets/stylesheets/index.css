@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd
+}
+
+header {
+    padding: 1em 0;
+    width: 100%;
+    min-height: 6.24rem;
+    background-color: #999999;
+}
+
+header img {
+    height: 3.75em;
+    width: 213px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header button {
+    padding: 10px 30px;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+header div {
+    display: flex;
+    height: 8rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.components {
+    display: flex;
+    flex-direction: row;
+}
