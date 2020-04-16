@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 h2,
@@ -15,505 +16,505 @@ button,
 span,
 p,
 a {
-    font-family: "Baloo Tamma 2", cursive;
+  font-family: "Baloo Tamma 2", cursive;
 }
 
 button {
-    color: #fff;
-    font-weight: bold;
-    font-size: 1em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
 }
 
 header p {
-    font-style: italic;
+  font-style: italic;
 }
 
 header {
-    padding: 1em 0;
-    width: 100%;
-    min-height: 6.24rem;
-    background-color: #999;
+  padding: 1em 0;
+  width: 100%;
+  min-height: 6.24rem;
+  background-color: #999;
 }
 
 header .wrapper {
-    padding: 0 2em;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 0 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header img {
-    height: 3.75em;
-    width: 100%;
+  height: 3.75em;
+  width: 100%;
 }
 
 header button {
-    padding: 10px 30px;
-    background: none;
-    border-radius: 10px;
-    border: 2px solid #fff;
+  padding: 10px 30px;
+  background: none;
+  border-radius: 10px;
+  border: 2px solid #fff;
 }
 
 footer h2 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 footer p {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 footer a {
-    color: #fff;
+  color: #fff;
 }
 
 .featured-article,
 .featured-article a,
 .featured-article p {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .comment-item a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .footer-topics-list a {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 header a:not(.components) {
-    display: flex;
-    height: 8rem;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+  display: flex;
+  height: 8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .components {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .mainp {
-    font-family: "Baloo Tamma 2", cursive;
-    font-weight: bold;
-    font-size: 2em;
+  font-family: "Baloo Tamma 2", cursive;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .featured-articles-container {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .featured-article.top {
-    padding: 30% 5vw 15% 5vw;
+  padding: 30% 5vw 15% 5vw;
 }
 
 .featured-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20% 5vw 15% 5vw;
-    height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20% 5vw 15% 5vw;
+  height: 300px;
 }
 
 .featured-article__box {
-    width: 50%;
-    background-color: #808080;
+  width: 50%;
+  background-color: #808080;
 }
 
 .featured-article__box.light {
-    background-color: #a9a9a9;
+  background-color: #a9a9a9;
 }
 
 .featured-article__author {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .featured-article__author img {
-    width: 75px;
-    border: 3px solid white;
-    margin-right: 20px;
-    border-radius: 8px;
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+  width: 75px;
+  border: 3px solid white;
+  margin-right: 20px;
+  border-radius: 8px;
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 .featured-article__links {
-    display: flex;
+  display: flex;
 }
 
 .featured-article__links p {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 
 .featured-article-link {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .featured-article-top {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 3%;
-    right: 0;
-    left: 0;
-    margin: auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 3%;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .featured-article-top .text {
-    text-align: center;
+  text-align: center;
 }
 
 .featured-article-top p {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .featured-article-top .bottom-text {
-    margin: 0 25%;
+  margin: 0 25%;
 }
 
 .featured-article-top .buttons {
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 2em;
-    left: 0;
-    right: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2em;
+  left: 0;
+  right: 0;
 }
 
 .featured-article-top img {
-    height: 3.75em;
-    margin-right: 15px;
+  height: 3.75em;
+  margin-right: 15px;
 }
 
 .featured-article-top button {
-    padding: 6px 16px;
-    background: none;
-    border-radius: 10px;
-    border: 2px solid #fff;
-    height: 37px;
+  padding: 6px 16px;
+  background: none;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  height: 37px;
 }
 
 .thirdsection {
-    padding: 5em;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 1em;
+  padding: 5em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
 }
 
 .thirdsection article {
-    background-color: #333;
-    height: 30rem;
-    grid-column: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 2rem;
-    color: #fff;
+  background-color: #333;
+  height: 30rem;
+  grid-column: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+  color: #fff;
 }
 
 .sponsor p {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 .comment-item p {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
 .newsletter p {
-    margin-top: 1rem;
-    text-align: center;
+  margin-top: 1rem;
+  text-align: center;
 }
 
 .thirdsection article p {
-    color: #a7a7a7;
+  color: #a7a7a7;
 }
 
 .thirdsection .article {
-    background-color: #bbb;
-    color: #333;
+  background-color: #bbb;
+  color: #333;
 }
 
 .thirdsection .article a {
-    color: #333;
-    line-height: 2;
-    font-size: 1.1rem;
+  color: #333;
+  line-height: 2;
+  font-size: 1.1rem;
 }
 
 .sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 2rem;
-    color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  color: white;
 }
 
 .sponsor h3 {
-    color: #d6d6d6;
-    text-decoration: underline;
-    font-size: 1.5rem;
-    margin: 1rem 0;
+  color: #d6d6d6;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  margin: 1rem 0;
 }
 
 .sponsor button {
-    border-radius: 15px;
-    padding: 10px 25px;
-    color: #333;
+  border-radius: 15px;
+  padding: 10px 25px;
+  color: #333;
 }
 
 .sponsors .sponsor {
-    width: 50%;
-    background-color: #666;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
-    border-radius: 15px;
+  width: 50%;
+  background-color: #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  border-radius: 15px;
 }
 
 .sponsors img {
-    width: 258px;
-    height: 290px;
+  width: 258px;
+  height: 290px;
 }
 
 .sponsors .article {
-    width: 25%;
-    color: #333;
+  width: 25%;
+  color: #333;
 }
 
 footer .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
 }
 
 .newsletter .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #808080;
-    margin: 3rem;
-    border-radius: 15px;
-    padding: 2rem;
-    color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #808080;
+  margin: 3rem;
+  border-radius: 15px;
+  padding: 2rem;
+  color: #272727;
 }
 
 .sponsors .article .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2em;
-    height: 84%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2em;
+  height: 84%;
 }
 
 .sponsor-item {
-    padding: 3rem;
-    height: 100%;
+  padding: 3rem;
+  height: 100%;
 }
 
 .article div p {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .sponsors h4 {
-    padding: 5rem 0;
-    margin: 0 auto;
-    text-decoration: underline;
-    color: #333;
-    font-size: 1.5rem;
-    cursor: pointer;
+  padding: 5rem 0;
+  margin: 0 auto;
+  text-decoration: underline;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 i {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .weeksection {
-    display: grid;
-    height: 94rem;
-    grid-template-columns: 1;
-    grid-template-rows: 65% 35%;
-    color: #333;
+  display: grid;
+  height: 94rem;
+  grid-template-columns: 1;
+  grid-template-rows: 65% 35%;
+  color: #333;
 }
 
 .weeksection button {
-    padding: 1rem 2rem;
-    background-color: white;
-    border-radius: 10px;
-    color: #333;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 10px;
+  color: #333;
 }
 
 .weeksection h2 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .weeksection img {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .comment-item img {
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    height: 70px;
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  height: 70px;
 }
 
 .newsletter img {
-    height: 520px;
-    margin: 4rem 0;
-    width: 100%;
+  height: 520px;
+  margin: 4rem 0;
+  width: 100%;
 }
 
 .weeksection div:first-child {
-    padding: 1rem;
-    grid-row: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #777;
-    text-align: center;
+  padding: 1rem;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #777;
+  text-align: center;
 }
 
 .weeksection div:nth-child(2) {
-    grid-row: 2;
-    background-color: #ddd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  grid-row: 2;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .weeksection div:nth-child(2) img {
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 .comment-item-text p:first-child {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #333;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
 }
 
 .comments h4 {
-    color: #333;
-    padding: 5rem 0;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 1.3rem;
-    text-decoration: underline;
-    cursor: pointer;
+  color: #333;
+  padding: 5rem 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .newsletter h4 {
-    padding: 1rem 0 4rem 0;
-    margin: 0 auto;
-    text-decoration: underline;
-    color: #333;
-    font-size: 1.5rem;
-    cursor: pointer;
-    text-align: center;
+  padding: 1rem 0 4rem 0;
+  margin: 0 auto;
+  text-decoration: underline;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
 }
 
 #articlesec {
-    margin-left: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 35rem;
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 35rem;
 }
 
 #articlesec h4 {
-    padding-bottom: 5em;
-    width: 40%;
+  padding-bottom: 5em;
+  width: 40%;
 }
 
 #articlesec p {
-    width: 85%;
+  width: 85%;
 }
 
 .comments {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .comments-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .comment-item {
-    display: grid;
-    grid-template-columns: 20% 1fr;
-    padding: 5rem 3rem;
-    color: black;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  padding: 5rem 3rem;
+  color: black;
 }
 
 ul {
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .newsletter h2 {
-    font-size: 1.3rem;
-    text-decoration: underline;
-    margin-bottom: 1rem;
+  font-size: 1.3rem;
+  text-decoration: underline;
+  margin-bottom: 1rem;
 }
 
 .newsletter h3 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .newsletter .form {
-    background-color: white;
-    border-radius: 5px;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .newsletter .form input {
-    background-color: transparent;
-    width: 13rem;
-    border: none;
+  background-color: transparent;
+  width: 13rem;
+  border: none;
 }
 
 .newsletter button {
-    background-color: transparent;
-    border: none;
-    border-left: 1px solid grey;
-    color: #333;
-    padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid grey;
+  color: #333;
+  padding: 0.5rem 1rem;
 }
 
 .newsletter i {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
 footer {
-    background-color: #2d2d2d;
-    text-align: center;
-    color: #fff;
+  background-color: #2d2d2d;
+  text-align: center;
+  color: #fff;
 }
 
 footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem 0;
 }
 
 footer li {
-    margin-right: 1rem;
-    margin-left: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .footer-links {
-    list-style: none;
+  list-style: none;
 }
